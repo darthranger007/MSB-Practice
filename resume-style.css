@@ -1,0 +1,74 @@
+.box-1{
+    display: flex;
+    justify-content: space-around;
+}
+.box-2{
+    /* height:1px; */
+    /* margin: 10px; */
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box-1-links{
+    /* padding: 2px 2px 2px 2px; */
+    /* height: px; */
+    /* width: 1px;
+    height: 1px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* align-items:flex-start; */
+}
+.Education{
+    border: 2px solid black ;
+    margin: 10px;
+    padding: 15px;
+    
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.skill{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    flex-wrap: nowrap;
+    /* margin-right: 50px; */
+    
+}
+.sec{
+    margin-left: 20px;
+}
+.por{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    /* padding: 90px; */
+}
+
+/* .skill:nth-child(2)
+{
+    margin-right: 300px;
+    /* padding-right: 100px; */
+
+    /* div+p{
+        font-size: 20px;
+        font-weight: 200;
+    } */
+
+
+a{
+    color: black;
+    margin: 5px;
+}
+i{
+    color: blue;
+}
+h5{
+    margin: 0px;
+    margin-left: 5px;
+}
+h2{
+    border-bottom: 2px dotted black;
+}
