@@ -121,7 +121,7 @@ function reset() {
 		}
 
     if (plturn == 1) {
-      cell.src = './x.png';
+      cell.src = './X.png';
     //   cell.style.display = 'block';
 	cell.classList.add("after");
 			turn=2;
