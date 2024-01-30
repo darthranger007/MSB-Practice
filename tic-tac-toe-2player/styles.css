@@ -1,0 +1,121 @@
+body {
+    background: black   ;
+}
+
+
+@keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    }
+   0% {
+      /* A slightly smaller blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px #f09,
+        0 0 73px #f09,
+        0 0 80px #f09,
+        0 0 94px #f09,
+        0 0 140px #f09;
+    }
+  }
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Mono', monospace;
+    /* color: aqua; */
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+      font-weight: 400;
+      line-height: 1;
+      font-size: 3rem;
+    animation: pulsate 0.11s ease-in-out infinite alternate;   
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.board table{
+    border: 3px double #f09;
+}
+
+.board td,button{
+    width: 70px;
+    height: 70px;
+    /* margin:3px; */
+    cursor: pointer;
+}
+
+.board tr:hover{
+    background-color: rgba(255, 255, 255, 0.221);
+    /* border: 1px solid #4666FF;  */
+    /* padding: 3px solid #4666FF; */
+}
+img{
+    /* display: none; */
+    width: 60px;
+    height: 60px;
+    
+}
+.before{
+    display: none;
+}
+
+ .after{
+    display: block;  
+}
+.after:hover{
+    cursor: not-allowed;
+}
+
+    .reset{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        
+    }
+    button#resett:hover{
+        background-color: white;
+        border-radius: 3px;
+        border: 7px solid rgba(248, 4, 4, 0.221);
+        /* border: 1px solid #4666FF;  */
+        /* padding: 3px solid #4666FF; */
+    }
+
+    
+
+    .score {
+        width: 100px;
+        height: 80px;
+        position: fixed;
+        top: 250px;
+        right: 40px;
+        cursor:default;
+        background: white;
+
+    }
+.score th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
