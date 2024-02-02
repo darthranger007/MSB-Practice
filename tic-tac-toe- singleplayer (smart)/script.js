@@ -669,7 +669,7 @@ function checkwin() {
     else if(moves>=9 ){
         setTimeout(alert("Draw"),200);
         reset();
-        return;
+       // return;
     }
 
     if(player1 || player2) {
