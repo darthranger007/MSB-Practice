@@ -177,7 +177,7 @@ function randomMove(id) {
 
 function computer(id) {
   let tempmoves = moves;
-  if (!player1 && !player2) {
+  if (!player1 && !player2 && moves<9) {
     chance = !chance;
     if (moves >= 9) {
       alert("Draw");
@@ -632,7 +632,7 @@ function checkwin() {
     }
   } else if (moves >= 9) {
     setTimeout(alert("Draw"), 200);
-    reset();
+    // reset();
     // return;
   }
 
