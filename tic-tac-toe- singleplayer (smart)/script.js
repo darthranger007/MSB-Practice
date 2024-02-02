@@ -201,7 +201,7 @@ function computer(id)
         {
             alert("Draw");
              setTimeout(reset,2000);
-            return;
+            //return;
         }
         else if(moves===1)
         {
