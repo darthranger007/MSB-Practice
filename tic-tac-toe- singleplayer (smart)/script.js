@@ -207,7 +207,7 @@ function computer(id)
         {
             randomMove(id);
         }
-        else
+        else if(moves>1 && moves <9)
         {
             
             tempmoves=defend(moves);
