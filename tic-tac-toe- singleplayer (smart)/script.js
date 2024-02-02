@@ -200,7 +200,7 @@ function computer(id)
         if(moves>=9)
         {
             alert("Draw");
-            // setTimeout(reset,2000);
+             setTimeout(reset,2000);
             return;
         }
         else if(moves===1)
