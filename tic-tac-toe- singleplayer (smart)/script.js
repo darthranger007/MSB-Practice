@@ -73,7 +73,7 @@ function startgame(ele) {
       return;
     }
 
-    if (!player1 && !player2) {
+    if (!player1 && !player2 && moves < 9) {
       setTimeout(() => {
         computer(id);
       }, 0);
@@ -197,7 +197,7 @@ function computer(id) {
     chance = !chance;
     // console.log(moves);
     }
-  } else reset();
+  } else alert("Draw");
 }
 
 function defend(moves) {
