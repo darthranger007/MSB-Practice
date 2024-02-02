@@ -1,0 +1,90 @@
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 81%);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.board table{
+    border: 3px double #f09;
+    border-collapse: collapse;
+}
+
+.board td,button{
+    width: 70px;
+    height: 70px;
+    /* margin:3px; */
+    cursor: pointer;
+}
+
+.board tr:hover{
+    background-color: rgba(255, 255, 255, 0.221);
+    /* border: 1px solid #4666FF;  */
+    /* padding: 3px solid #4666FF; */
+}
+
+img{
+    /* display: none; */
+    width: 60px;
+    height: 60px;
+    
+}
+.before{
+    display: none;
+}
+
+ .after{
+    display: block;  
+}
+.after:hover{
+    cursor: not-allowed;
+}
+
+    .reset{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        font-family: 'Single Day', cursive;
+        
+    }
+    button#resett:hover{
+        background-color: rgb(24, 241, 12);
+        border-radius: 3px;
+        border: 7px solid rgba(0, 255, 30, 0.221);
+        /* border: 1px solid #4666FF;  */
+        /* padding: 3px solid #4666FF; */
+    }
+
+    
+
+    .score {
+        width: 100px;
+        height: 80px;
+        position: fixed;
+        top: 250px;
+        right: 40px;
+        cursor:default;
+        background: white;
+        table-layout: fixed;
+        border-collapse: collapse;
+
+    }
+    
+.score th,td{
+    border: 2px solid black;
+}
+   
+
+#resett {
+    font-family: 'Single Day', cursive;
+}
